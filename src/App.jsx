@@ -1,20 +1,23 @@
 import React from "react";
-
+import tortaImg from './assets/torta_menu.jpg';
+import hamburguesaImg from './assets/hamburguesa_menu.jpg';
+import tacosImg from './assets/tacos_menu.jpg';
+import polloImg from './assets/pollo_menu.jpg';
 const menu = [
   {
     categoria: "Entradas",
     items: [
       {
-        nombre: "Guacamole con totopos",
+        nombre: "Torta Leo Especial",
         descripcion: "Aguacate fresco, jitomate, cebolla y limón.",
-        precio: "$65",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Guacamole.jpg/800px-Guacamole.jpg",
+        precio: "$650",
+        imagen: tortaImg,
       },
       {
-        nombre: "Queso fundido",
+        nombre: "Hamburguesa Leo 100% delisiosisisisima",
         descripcion: "Queso derretido con chorizo y tortillas.",
-        precio: "$80",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Queso_fundido.jpg/800px-Queso_fundido.jpg",
+        precio: "$360",
+        imagen: hamburguesaImg,
       },
     ],
   },
@@ -22,16 +25,16 @@ const menu = [
     categoria: "Platillos principales",
     items: [
       {
-        nombre: "Tacos de arrachera",
+        nombre: "Tacos Leo archirecontrariquisimos",
         descripcion: "Tortillas de maíz con carne asada, cebolla y cilantro.",
         precio: "$120",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/5/58/Tacos_de_arrachera.jpg",
+        imagen: tacosImg,
       },
       {
-        nombre: "Pechuga a la plancha",
+        nombre: "Pollo rostisadisimo y delicioso",
         descripcion: "Acompañada con arroz y ensalada fresca.",
         precio: "$110",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Grilled_chicken_breast.jpg",
+        imagen: polloImg,
       },
     ],
   },
