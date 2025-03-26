@@ -55,9 +55,14 @@ const menu = [
 ];
 
 export default function App() {
+
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-100 p-4">
       <header className="bg-red-600 text-white text-center py-5 rounded-xl shadow-md mb-6">
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <h1 className="text-4xl font-bold text-blue-600">¡Tailwind está funcionando! 🎉</h1>
+    </div>
         <h1 className="text-3xl font-extrabold">Menú del Restaurantito</h1>
         <p className="text-sm">Escanea el QR para ver este menú desde tu celular 📱</p>
       </header>
